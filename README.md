@@ -97,3 +97,36 @@ Cela vous permettra d'accéder aux services via leur adresse IP. Une fois le tun
 Application déployée : http://localhost
 
 ![App_Deployed](docs/img/app_deployed.png)
+
+# Déploiement avec ArgoCD
+
+## Installation d'ArgoCD
+
+![Create_Namespace_Argocd](docs/img/create_namespace_argocd.png)
+![Install_Argocd](docs/img/install_argocd.png)
+
+## Exposition d'Argocd
+
+![Expose_Argocd](docs/img/kubectl_port_forward.png)
+
+## Récupération du mot de passe initial de l'admin
+
+![Get_Password_Admin](docs/img/get_password_kubectl.png)
+
+## Création de l'application via l'interface web d'ArgoCD
+
+![Create_App](docs/img/create_app.png)
+
+![Create_App_Ui](docs/img/create_app_ui.png)
+
+![Create_App_Ui2](docs/img/create_app_ui2.png)
+
+![Create_App](docs/img/create.png)
+
+## Synchronisation de l'application via l'interface web d'ArgoCD
+
+![Sync_App](docs/img/home_app.png)
+
+![Sync_Button](docs/img/sync_app_ui.png)
+
+![Sync_App2](docs/img/app_synced.png)
